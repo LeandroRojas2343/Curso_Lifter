@@ -29,8 +29,3 @@ while (secret_num != int(user_num)):
     user_num = input("Enter a number (1-10): ")
 
 print("You guessed it!")
-
-
-
-
-

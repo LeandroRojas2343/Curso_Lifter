@@ -1,17 +1,19 @@
 
-# Inicio
+#Pseudocodigo3
 
-# Pedir el número al usuario
-numero = int(input("Ingrese un número: "))
+# Start
 
-# Inicializar variables
-suma = 0
+# Ask the user for a number
+number = int(input("Enter a number: "))
+
+# Initialize variables
+sum = 0
 i = 1
 
-# Bucle mientras i <= numero
-while i <= numero:
-    suma = suma + i
+# Loop while i <= number
+while i <= number:
+    sum = sum + i
     i = i + 1
 
-# Mostrar resultado
-print("La suma es =", suma)
+# Show result
+print("The sum is =", sum)

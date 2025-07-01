@@ -12,5 +12,3 @@ if numero2 > mayor:
         mayor = numero3
 
 print("The largest number is:", mayor)
-
-  
