@@ -1,0 +1,116 @@
+
+1. Inicio
+1. Definir Precio
+2. Definir descuento 
+3. Pedir **<Ingresar Precio>**   
+4. Si (**<Precio <= 100  >**) 
+    1. i.Recibe un 10% si es mayor o igual a 100.
+    2. Descuento  `precio *0.10`
+    3. Si no **<Precio -  0.02% >**  
+    4. i. Recibe un 2% en el caso de ser un numero menor a 100.
+    5. Descuento: `precio *0.02`
+    6. Definir Precio Final 
+    7. Precio Final = Precio - Descuento
+
+ Mostrar Precio Final
+
+_______________________________________________________________________-
+
+1.Inicio———>
+
+1.1 Definir segundos
+
+1.2 Definir Resultado
+
+2.Pedir<Segundos>———>
+
+3.Si(<segundos == 600  >): ———
+
+1. mostrar “Igual”———
+
+Si no, si<segundos > 600 >
+
+1. mostrar: “mayor”———>
+1. Resultado = segundos ingresados -600
+
+FinSi
+
+Mostrar<”Faltan ”resultado “Para llegar a los 10 minutos”>———>
+
+Fin
+________________________________________________________________________
+
+2. Inicio
+3. Definir Numero
+4. Definir Suma  
+5. Pedir <Ingrese Numero> 
+6. suma ← 0  
+7. i ← 1
+
+            Mientras índice <= número Hacer
+                 suma ← suma + índice
+                 índice ← índice + 1
+   
+
+                Fin Mientras
+
+// Mostramos resultado
+
+Mostrar La suma es = Suma
+
+________________________________________________________________________
+
+.Inicio
+
+2.Pedir< "Ingrese el primer número: ">
+3.Pedir< "Ingrese el segundo número: ">
+
+Definir<Números Ingresados>
+
+[4.Si](http://4.si/) (< primero > segundo >):
+primero ← segundo
+segundo ← primero
+FinSi
+
+5.Mostrar< "El primer número es: ", primero>
+6.Mostrar< "El segundo número es: ", segundo >
+
+7.Fin
+
+_______________________________________________________________________
+
+Inicio
+
+1.1 Definir resultado
+
+1.2 definir velocidad
+
+1Pedir velocidad en kph<Ingrese velocidad en kph>
+2.`resultado` = (`velocidad`*1000) /3600 
+
+4.Mostrar<Resultado>
+
+5.Fin
+
+_________________________________________________________________________
+
+2.Definir<mujeres = 0>
+3.Definir<hombres = 0>
+
+4.Para persona ← 1 Hasta 6 Hacer
+5.Pedir< "Ingrese el sexo de la persona (1 para mujer, 2 para hombre): ">
+[6.Si](http://6.si/) (<sexo == 1>):
+mujeres ← mujeres + 1
+Sino
+hombres ← hombres + 1
+FinSi>
+FinPara>
+
+7.porcentaje_mujeres ← (mujeres * 100) / 6
+8.porcentaje_hombres ← (hombres * 100) / 6
+
+9.Mostrar< "El porcentaje de mujeres es: ", porcentaje mujeres, "%" >
+10.Mostrar< "El porcentaje de hombres es: ", porcentaje hombres, "%" >
+
+11.Fin
+
