@@ -1,4 +1,3 @@
-
 # Enter the number of grades
 n = int(input("Enter the number of grades: "))
 

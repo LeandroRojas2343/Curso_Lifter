@@ -1,24 +1,21 @@
-# Inicio
 
-# 1. Pedir los segundos al usuario
-segundos = int(input("Ingresa los segundos: "))
+#Pseudocodigo2 
+# Start
 
-# 2. Evaluar condiciones
-if segundos == 600:
-    print("Igual")
-    resultado = 0  # No falta ni sobra nada
-elif segundos > 600:
-    print("Mayor")
-    resultado = segundos - 600
-    print(f"Te pasaste por {resultado} segundos de los 10 minutos.")
+# Ask for seconds
+seconds = int(input("Enter the number of seconds: "))
+
+# Conditions
+if seconds == 600:
+    print("Equal")
+    result = 0  # The result is 0
+elif seconds > 600:
+    print("Greater")
+    result = seconds - 600
+    print(f"You exceeded the 10 minutes by {result} seconds.")
 else:
-    print("Menor")
-    resultado = 600 - segundos
-    print(f"Faltan {resultado} segundos para llegar a los 10 minutos.")
+    print("Less")
+    result = 600 - seconds
+    print(f"{result} seconds are missing to reach 10 minutes.")
 
-# Fin
- 
-
-
-
-
+# End
